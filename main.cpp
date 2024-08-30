@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(void){
+    while (true){
     int operation = 0;
     float input = 0;
     float sinput = 0;
@@ -35,5 +36,8 @@ int main(void){
         output = input;
     }  
     cout << "The result is:" << output;
+    cout << endl;
+    }
     return 0;
+    
 }
